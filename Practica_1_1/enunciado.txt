@@ -1,0 +1,10 @@
+Realiza los siguientes programas en lenguaje C#.
+
+Crea un programa en un archivo llamado Practica_1_1_1.cs que le pida al usuario tres notas de exámenes y muestre la media de las tres, sin decimales.
+
+Crea un programa en un archivo llamado Practica_1_1_2.cs que le pida al usuario a qué velocidad lleva el coche (en Km/h) y a qué distancia está la ciudad a la que quiere llegar (en Km) y le diga cuántos minutos tardará en llegar. Para calcularlo, recuerda que el tiempo t que se tarda en recorrer una distancia d a una velocidad constante v es t = d / v. Ten en cuenta que esto te daría un resultado en horas, que deberás convertir a minutos.
+Ejemplo: si el usuario dice que va a 100 Km/h y que la distancia a recorrer es de 300 Km, le dirá que tardará 180 minutos (3 horas).
+
+Para entregar:
+
+Deberás entregar los dos archivos fuente (sin los ejecutables compilados) en un archivo ZIP llamado Practica_1_1.zip.
