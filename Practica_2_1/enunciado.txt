@@ -1,0 +1,21 @@
+Realiza los siguientes programas en lenguaje C#.
+
+Ejercicio 1
+
+Crea un programa en un archivo llamado Practica_2_1_1.cs que le pida al usuario tres temperaturas en ºC, y en función de los valores, muestre uno de estos mensajes:
+"Es verano" (si todas las temperaturas son de al menos 25ºC)
+"Es invierno" (si todas son de menos de 15ºC)
+"Es otoño o primavera" si alguna temperatura no está en el rango indicado en las anteriores
+Ejemplos de entradas y salidas que debe mostrar:
+
+35 32 29 --> Es verano
+13 14 9  --> Es invierno
+13 20 15 --> Es otoño o primavera
+
+Ejercicio 2
+
+Crea un programa en un archivo llamado Practica_2_1_2.cs que le pida al usuario un código numérico entero. Si es 5678 o 8765 le mostrará el saludo "Hola, señor". Si es 1234 o 4321 le mostrará el saludo "Hola, señora", y si es cualquier otro número mostrará el saludo "Código no identificado".
+
+Para entregar:
+
+Deberás entregar los dos archivos fuente (sin los ejecutables compilados) en un archivo ZIP llamado Practica_2_1.zip.

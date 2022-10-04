@@ -1,0 +1,11 @@
+Realiza los siguientes programas en lenguaje C#.
+
+Crea un programa en un archivo llamado Practica_2_2_1.cs que le pida al usuario el año actual (supondremos que será correcto) y el año de nacimiento. Este último dato deberá pedirlo tantas veces como sea necesario hasta que sea correcto (consideraremos que es correcto si es menor o igual que el año actual). Después, mostrará por pantalla cuántos años tiene el usuario.
+
+Crea un programa en un archivo llamado Practica_2_2_2.cs que le pida al usuario un número y muestre por pantalla los 10 números que le siguen y los 5 números que le preceden (sin contar el propio número) separados por comas. Por ejemplo, si el usuario elige el número 12, deberá mostrar algo así:
+10 números siguientes: 13,14,15,16,17,18,19,20,21,22
+5 números anteriores: 11,10,9,8,7
+
+Para entregar:
+
+Deberás entregar los dos archivos fuente (sin los ejecutables compilados) en un archivo ZIP llamado Practica_2_2.zip.
