@@ -1,0 +1,19 @@
+Realiza los siguientes programas en lenguaje C#.
+
+Crea un programa en un archivo llamado Practica_2_3_1.cs que le pida al usuario una altura h y dibuje una figura como la que se muestra a continuación con la altura indicada (alineada al margen izquierdo). El programa debe mostrar el mensaje "Altura no válida" si se introduce una altura negativa o no entera (debes capturar la excepción correspondiente). Por ejemplo, esta figura se dibuja con una altura de 5.
+    *
+   ***
+  *****
+ *******
+*********
+
+Crea un programa en un archivo llamado Practica_2_3_2.cs que simule una hucha. El programa solicitará primero una cantidad, que será la cantidad de dinero que queremos ahorrar. A continuación, el programa solicitará una y otra vez las cantidades que se irán ahorrando, hasta que el total ahorrado iguale o supere al objetivo. El programa no comprobará que las cantidades sean positivas. Un ejemplo de uso: 
+Indica total a ahorrar: 50
+Indica la cantidad que ingresas: 10
+Indica la cantidad que ingresas: -5
+Indica la cantidad de ingresas: 20
+Indica la cantidad que ingresas: 30
+ENHORABUENA! Has ahorrado 55 euros
+
+Para entregar:
+Deberás entregar los dos archivos fuente (sin los ejecutables compilados) en un archivo ZIP llamado Practica_2_3.zip.
