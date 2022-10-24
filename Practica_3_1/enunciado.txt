@@ -1,0 +1,34 @@
+Realiza los siguientes programas en lenguaje C#.
+
+Ejercicio 1
+
+Crea un programa en un archivo llamado Practica_3_1_1.cs en el que calcularemos estadísticas de ventas durante un período de tiempo:
+
+Pediremos al usuario de cuántos años es el período a estudiar (3 años, 5 años...)
+Después, le pediremos el total en euros vendido en cada año (tantos totales como número de años haya indicado)
+Finalmente, mostraremos por pantalla las ventas mínimas, máximas y medias introducidas. Para la media, se mostrará formateada con 2 decimales.
+Ejemplo de funcionamiento:
+
+Indica el período en años: 
+4
+Introduce las ventas de los 4 años:
+600000
+510000
+560000
+645000
+Las ventas mínimas han sido de 510000 euros
+Las ventas máximas han sido de 645000 euros
+Las ventas medias han sido de 578750,00 euros
+
+Ejercicio 2
+
+Crea un programa en un archivo llamado Practica_3_1_2.cs que le pida al usuario una longitud (real) y una unidad ('P' para pulgadas, 'C' para centímetros). El programa debe convertir la longitud a la otra unidad. Por ejemplo, si el usuario escribe una longitud de 50 y unidad = 'C', el programa debe convertir 50cm a pulgadas. Deberás tener en cuenta que:
+Si la longitud no es un dato correcto (se produce una excepción) se la deberemos volver a pedir tantas veces como sea necesario
+Si la unidad no es 'C' o 'P', mostraremos el mensaje de "Unidad no válida" y finalizaremos el programa
+La conversión debe mostrarse con 3 decimales
+La fórmula para convertir de una unidad a otra es:
+1 pulgada = 2,54 cm
+
+Para entregar:
+
+Deberás entregar los dos archivos fuente (sin los ejecutables compilados) en un archivo ZIP llamado Practica_3_1.zip.
