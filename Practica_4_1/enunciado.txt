@@ -1,2 +1,20 @@
 Realiza los siguientes programas en lenguaje C#.
 
+Ejercicio 1
+
+Crea un programa en un archivo llamado Practica_4_1_1.cs que almacene una secuencia de valores de una acción (números reales simples o float) en un array unidimensional. Le pediremos al usuario cuántos valores va a introducir, y después almacenaremos esos valores en un array. Al finalizar, debemos examinar los valores almacenados y decirle al usuario:
+
+- Rango: diferencia entre el valor máximo y el valor mínimo introducidos
+- Beneficio máximo, con 2 decimales: porcentaje entre el máximo y el valor inicial. Por ejemplo, si el valor inicial de la acción es 3,5 y el valor máximo introducido ha sido de 3,75, el beneficio máximo ha sido del 7,14% (si 3,5 era el 100%, 3,75 será x, por lo que x = 3,75 * 100 / 3,5 = 107,14).
+- Cuántos mínimos locales ha habido. Un valor es mínimo local si los valores que tiene a izquierda y derecha son mayores que él.
+
+Ejercicio 2
+
+Crea un programa en un archivo llamado Practica_4_1_2.cs que le pida al usuario el número de filas y columnas N de una tabla (mismo número de filas y de columnas), y cree una tabla de enteros de ese tamaño. Después, le pedirá al usuario que rellene cada uno de los valores de la tabla y, al finalizar, le deberá indicar:
+
+- Cuánto multiplican los valores de la diagonal principal. La diagonal principal es aquella donde el número de fila coincide con el número de columna
+- En qué casillas (fila y columna) se encuentra el valor que diga el usuario por teclado (le pediremos un valor tras rellenar toda la tabla).
+
+Para entregar:
+
+Deberás entregar los dos archivos fuente (sin los ejecutables compilados) en un archivo ZIP llamado Practica_4_1.zip.
