@@ -1,0 +1,30 @@
+Realiza un programa en un archivo llamado Practica_4_2.cs que tenga lo siguiente:
+
+Estructuras de datos
+
+Vamos a gestionar un conjunto de juegos de mesa. Para ello, se pide definir dos estructuras:
+
+- Una llamada infoBasica que almacenará tres datos: la edad mínima para jugar al juego, el número mínimo de jugadores (0 si no hay límite mínimo) y el número máximo de jugadores (0 si no hay límite máximo). Todos son datos de tipo byte
+- Una llamada juego que almacenará el nombre del juego (string), la información básica (campo de tipo infoBasica con los datos anteriores), el precio (float) y el tipo (enum que podrá ser ROL, INFANTIL, PUZZLE u OTROS).
+
+Funcionalidad
+
+El programa debe crear un array sobredimensionado con capacidad para hasta 30 juegos. Después, debe mostrar repetidamente al usuario un menú con las siguientes opciones:
+
+1. Nuevo juego: le pediremos al usuario los datos del  juego (título, información básica, precio y tipo de juego)y lo añadiremos al final de los juegos existentes. Deberemos comprobar si el nuevo juego cabe, y  el precio es un valor válido (real mayor que 0). De lo contrario, no se añadirá nada al array. Supondremos que el resto de datos sí serán válidos, y el tipo de juego se lo pediremos al usuario en forma numérica (por ejemplo 1 = ROL, 2 = INFANTIL, etc), para luego convertirlo al enum correspondiente.
+
+2. Borrar juego: si hay juegos en el array, los mostraremos numerados de 1 a N, le pediremos al usuario la posición del juego a borrar y, si es válida  (entre 1 y el número de juegos actual) y el usuario confirma la operación, eliminaremos el juego del array
+
+3. Juego más caro: mostraremos los datos del juego más caro del array (si hay juegos), o el mensaje "No hay juegos" si está vacío. Se deberá mostrar toda la información del juego, cada campo en una línea.
+
+4. Juegos por tipo: le pedirá al usuario un tipo de juego y, si es válido (contenido en el enum) mostrará los juegos de ese tipo. Si el tipo no es válido mostraremos "Tipo inválido" y volveremos al menú. Si no hay juegos de ese tipo mostraremos "No se encuentran juegos del tipo indicado" y volveremos al menú. Se deberá mostrar toda la información de los juegos, cada campo en una línea
+
+5. Juegos por título: le pedirá al usuario que escriba un título de juego y mostrará los datos de los juegos que en su nombre contengan el texto indicado por el usuario, sin importar mayúsculas o minúsculas. Por ejemplo, si el usuario escribe "monopoly" mostrará todos los juegos que en su título tengan el texto "monopoly", sin importar mayúsculas o minúsculas, tales como "Monopoly Junior", "Monopoly Tramposo" etc. El formato de salida es el mismo que en los puntos anteriores (toda la información de los juegos, cada campo en una línea)
+
+0. Salir
+
+Se valorará que se gestionen las opciones del menú a través de un tipo enumerado (enum) para facilitar posibles cambios futuros. También se valorará la usabilidad de la aplicación, es decir, que el usuario vea los mensajes apropiados de lo que tiene que hacer, y se le pida la información mínima imprescindible para completar la tarea.  Por ejemplo, para confirmar el borrado basta con que el usuario escriba S o N.
+
+Para entregar:
+
+Deberás entregar el archivo fuente comprimido en un archivo ZIP llamado Practica_4_2.zip.
