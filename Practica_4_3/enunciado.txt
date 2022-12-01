@@ -1,0 +1,21 @@
+Realiza los siguientes programas en lenguaje C#.
+
+Ejercicio 1
+
+Toma el Ejercicio_04b_03 resuelto de sesiones anteriores, y añade estos cambios:
+
+Opción 4 del menú: ordenar el listado alfabéticamente por título de la canción (ascendente) y mostrar las canciones ordenadas
+Opción 5 del menú: ordenar el listado por tamaño en KB, descendentemente, y mostrarlo. 
+
+Ejercicio 2
+
+Crea un programa en un archivo llamado Practica_4_3_2.cs que le pida al usuario una frase y detecte nombres propios. Los nombres propios serán todas aquellas palabras que comiencen por mayúscula, salvo la primera de la frase. Deberá mostrar las palabras identificadas,  ordenadas alfabéticamente y separadas por comas (no debe haber coma tras la última palabra). Si no hay nombres propios, se mostrará la frase "No se encontraron nombres propios". 
+
+Ejemplo: si el usuario escribe esta frase:
+Una mañana de Diciembre Alfredo salió de viaje hacia Salamanca
+El programa deberá mostrar lo siguiente:
+Alfredo,Diciembre,Salamanca
+
+Para entregar:
+
+Deberás entregar los dos archivos fuente (sin los ejecutables compilados) en un archivo ZIP llamado Practica_4_3.zip.
