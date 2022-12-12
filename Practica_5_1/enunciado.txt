@@ -1,0 +1,16 @@
+En esta práctica vamos a modularizar el código de la práctica 4.2. Puedes acudir a la solución que enviaste si la calificación es buena, o a la solución publicada en GitHub como alternativa.
+
+En concreto, se pide implementar las siguientes funciones:
+
+- MostrarMenu: mostrará el menú de opciones y devolverá la opción que elige el usuario. Invocaremos a esta función desde el Main, al inicio del do..while, cuando se muestra el menú y se recoge la opción.
+- NuevoJuego: recibirá como parámetro el array de juegos y la cantidad (entero que pasaremos por referencia). Internamente debe hacer lo mismo que hacía la opción 1 del menú. En el Main, desde dicha opción 1 simplemente nos limitaremos a invocar a esta función con los dos parámetros adecuados para que haga su tarea.
+- BorrarJuego: recibirá también como parámetros el array de juegos y la cantidad pasada por referencia. Deberá hacer lo mismo que hacía la opción 2 del menú, y desde el Main simplemente invocaremos a esta función en la opción 2.
+- JuegoMasCaro: recibirá como parámetros el array de juegos y la cantidad (pasada en este caso por valor) y devolverá la posición (entero) donde se encuentra el juego más caro, o -1 si no hay juegos en el array. Desde la opción 3 del menú invocaremos a esta función, recogeremos el resultado y mostraremos los datos del juego (si no devuelve -1) o el mensaje "No hay juegos" (si devuelve -1).
+- JuegosPorTipo: recibirá como parámetros el array de juegos y la cantidad (pasada por valor) y se encargará de hacer lo que se hacía en la opción 4 del menú. Desde dicha opción nos limitaremos a llamar a la función para que haga la tarea.
+- JuegosPorTitulo: recibirá como parámetros el array de juegos y la cantidad (pasada por valor) y realizará la tarea que antes se hacía en la opción 5 del menú. Desde esa opción invocaremos a la función sin más para que muestre el resultado.
+
+En el caso de que alguna función sea demasiado larga, o alguna tarea se repita en varios puntos del programa, se deberá crear una función aparte para modularizar esa tarea. Puede resultar adecuada, por ejemplo, una función que pida datos numéricos al usuario, comprobando que sean correctos y en un rango determinado.
+De este modo, el código de cada función deberá ser corto (hasta 50 líneas de código como máximo, aproximadamente), y el Main se limitará a mostrar el menú e invocar a la función correspondiente, según cada opción.
+
+Para entregar:
+Deberás entregar el programa actualizado, en un archivo ZIP llamado Practica_5_1.zip.
